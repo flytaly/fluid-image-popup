@@ -28285,19 +28285,19 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"../img/small/cat1.jpg":[function(require,module,exports) {
-module.exports = "/cat1.cce4fe8c.jpg";
-},{}],"../img/small/cat2.jpg":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"../img/small/cat2.jpg":[function(require,module,exports) {
 module.exports = "/cat2.ec3015c0.jpg";
+},{}],"../img/small/cat1.jpg":[function(require,module,exports) {
+module.exports = "/cat1.cce4fe8c.jpg";
 },{}],"../img/small/cat3.jpg":[function(require,module,exports) {
 module.exports = "/cat3.f13ad38f.jpg";
 },{}],"../img/small/**.jpg":[function(require,module,exports) {
 module.exports = {
-  "cat1": require("./cat1.jpg"),
   "cat2": require("./cat2.jpg"),
+  "cat1": require("./cat1.jpg"),
   "cat3": require("./cat3.jpg")
 };
-},{"./cat1.jpg":"../img/small/cat1.jpg","./cat2.jpg":"../img/small/cat2.jpg","./cat3.jpg":"../img/small/cat3.jpg"}],"../img/big/cat1.jpg":[function(require,module,exports) {
+},{"./cat2.jpg":"../img/small/cat2.jpg","./cat1.jpg":"../img/small/cat1.jpg","./cat3.jpg":"../img/small/cat3.jpg"}],"../img/big/cat1.jpg":[function(require,module,exports) {
 module.exports = "/cat1.ff6a87bc.jpg";
 },{}],"../img/big/cat2.jpg":[function(require,module,exports) {
 module.exports = "/cat2.dda23bc3.jpg";
