@@ -1,7 +1,7 @@
 const previewImages = document.querySelectorAll('#image-list img');
 const imageList = document.querySelector('#image-list');
 
-const folderPath = '../img/big/';
+const folderPath = './img/big/';
 
 imageList.addEventListener('click', (e) => {
   if (e.target.tagName === 'IMG') {
