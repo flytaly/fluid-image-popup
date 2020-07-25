@@ -1,0 +1,26 @@
+{
+  "name": "fluid_image_popup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel react/index.html",
+    "build": "parcel build react/index.html --public-url /fluid-image-popup/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flytaly/fluid-image-popup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flytaly/fluid-image-popup/issues"
+  },
+  "homepage": "https://github.com/flytaly/fluid-image-popup#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
